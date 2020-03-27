@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <coffees>
+    <coffee name="Coffee">
+      <name>Spanish Coffee</name>
+      <sugar>true</sugar>
+      <milk>false</milk>
+      <strength>2</strength>
+      <strongDrink>cognac</strongDrink>
+      <cream>true</cream>
+    </coffee>
+    <coffee name="Coffee">
+      <name>Irish Coffee</name>
+      <sugar>true</sugar>
+      <milk>true</milk>
+      <strength>2</strength>
+      <strongDrink>whisky</strongDrink>
+      <cream>true</cream>
+    </coffee>
+    <coffee name="Coffee">
+      <name>Italian Coffee</name>
+      <sugar>true</sugar>
+      <milk>true</milk>
+      <strength>2</strength>
+      <strongDrink>amaretto</strongDrink>
+      <cream>true</cream>
+    </coffee>
+  </coffees>
+</root>
