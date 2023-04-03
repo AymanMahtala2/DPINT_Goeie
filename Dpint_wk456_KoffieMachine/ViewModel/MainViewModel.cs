@@ -207,7 +207,7 @@ namespace Dpint_wk456_KoffieMachine.ViewModel
 
         public ICommand DrinkWithSugarCommand => new RelayCommand<string>((drinkName) =>
         {
-            _selectedDrink = drinkFactory.createDrink(true, false, SugarAmount, MilkAmount, CoffeeStrength, drinkName);
+            _selectedDrink = drinkFactory.createDrink(false, false, SugarAmount, MilkAmount, CoffeeStrength, drinkName, false, 0, SelectedTea);
             RemainingPriceToPay = 0;
 
             if (_selectedDrink != null)

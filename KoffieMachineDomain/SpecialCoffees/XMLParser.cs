@@ -30,10 +30,6 @@ namespace KoffieMachineDomain.SpecialCoffees
             doc = XDocument.Load("Coffees.xml");
             XmlElement root = coffees.DocumentElement;
             XmlNodeList nodes = root.SelectNodes("coffee");
-            foreach (XmlNode node in nodes)
-            {
-                Debug.WriteLine("AAAAAAAAAAAAAA  " + node.Attributes[0].InnerText);
-            }
             names = new List<string>();
             sugars = new List<string>();
             milks = new List<string>();

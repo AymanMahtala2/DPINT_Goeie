@@ -54,7 +54,6 @@ namespace KoffieMachineDomain.DrinkFactory
                 return drink;
             }
 
-
             drink = new StrengthDecorator(drink, strength);
 
             if (sugar)
@@ -90,7 +89,7 @@ namespace KoffieMachineDomain.DrinkFactory
                 case TEA:
                     Tea.Tea tea = new Tea.Tea(drink);
                     tea.TeaBlend = TBR.GetKind(teaKind);
-                    drink = new TeaAdapter(tea, drink); //nog fixen
+                    drink = new TeaAdapter(tea, drink);
                     break;
             }
 
